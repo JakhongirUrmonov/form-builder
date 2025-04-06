@@ -1,0 +1,77 @@
+.form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  margin-bottom: 1rem;
+  color: #004d99;
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.inputField,.textArea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.textArea {
+  height: 100px;
+}
+
+.checkbox {
+  transform: scale(1.2);
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.radioInput {
+  transform: scale(1.1);
+}
+
+.buttonGroup {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.submitButton {
+  background-color: #004d99;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #003366;
+}
+.error {
+  color: #d8000c;
+  margin-top: 0.5rem;
+}
